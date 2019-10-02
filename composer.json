@@ -1,0 +1,25 @@
+{
+    "name": "ingokasch/ik_faq",
+    "description": "ik_faq is a TYPO3 extension for managing and displaying a FAQ section on your website",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ingo Kasch",
+            "email": "ingo.kasch@loom-dxp.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IngoKasch\\IkFaq\\": "Classes/"
+        }
+    },
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "ik_faq"
+        }
+    }
+}
