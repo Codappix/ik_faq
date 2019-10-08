@@ -43,8 +43,8 @@ $GLOBALS['TCA']['tx_ikfaq_domain_model_link'] = array(
 			hidden, 
 			name, 
 			href, 
-			target',
-			entries,
+			target,
+			entries'
 	),
 	'types' => array(
 		'1' => array('showitem' => '
